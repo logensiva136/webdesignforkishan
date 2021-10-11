@@ -1,0 +1,12 @@
+html {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 10px;
+}
+
+.main {
+  background-color: black;
+}
