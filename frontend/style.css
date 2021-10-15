@@ -4,9 +4,66 @@ html {
 
 body {
   padding: 0;
-  margin: 10px;
+  margin: 0;
+  background-color: #f7f6f2;
+  height: 100%;
 }
 
 .main {
-  background-color: black;
+  background-color: #d1e8e4;
+  height: 100%;
+}
+
+.sidebar {
+  height: 100%;
+  width: auto;
+}
+
+.sidebar:hover {
+}
+
+.sidebar_items img {
+  width: 40px;
+}
+
+.sidebar_items {
+  display: flex;
+  align-items: center;
+  background-color: red;
+}
+
+.sidebar_items span {
+  margin: 0 10px;
+  display: none;
+}
+
+.logo {
+  width: 30px;
+}
+
+.d-i-b {
+  display: inline-block;
+}
+
+@media (min-width: 320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+}
+@media (min-width: 481px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+@media (min-width: 641px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+@media (min-width: 961px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
+}
+
+.d-i-b {
+  display: inline-block;
 }
